@@ -36,7 +36,7 @@ Information Technology undergraduate at **Malineni Lakshmaiah Women's Engineerin
 
 ## 🛠️ Tech Stack & Skills
 - **Languages**: Python, JavaScript (ES6+), TypeScript
-- **Frontend**: React.js, HTML5, Tailwind CSS
+- **Frontend**: React.js, HTML5, CSS3, Tailwind CSS
 - **Backend & APIs**: Node.js, Express.js, RESTful Architecture
 - **Databases & Cloud**: MongoDB Atlas, MySQL, AWS, Firebase, ServiceNow
 - **Foundations**: DBMS, Operating Systems, Computer Networks, System Design
