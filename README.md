@@ -1,7 +1,26 @@
-# Tanguturi Sai Deepika - Personal Portfolio & Resume
+# 🌟 Tanguturi Sai Deepika &mdash; Portfolio & Resume
 
-> 🌟 **Live Portfolio**: [https://saideepika07.github.io/portfolio/](https://saideepika07.github.io/portfolio/)  
-> 📄 **ATS LaTeX Resume**: [https://saideepika07.github.io/portfolio/resume.html](https://saideepika07.github.io/portfolio/resume.html)
+<p align="center">
+  <a href="https://saideepika07.github.io/portfolio/">
+    <img src="https://img.shields.io/badge/🌐_Live_Portfolio-saideepika07.github.io%2Fportfolio-6366f1?style=for-the-badge&logoColor=white" alt="Live Portfolio" />
+  </a>
+  <a href="https://saideepika07.github.io/portfolio/resume.html">
+    <img src="https://img.shields.io/badge/📄_ATS_Resume-View_Online-10b981?style=for-the-badge&logoColor=white" alt="Interactive Resume" />
+  </a>
+  <a href="https://saideepika07.github.io/portfolio/resume.pdf">
+    <img src="https://img.shields.io/badge/📥_Download_Resume-PDF-ef4444?style=for-the-badge&logoColor=white" alt="Download Resume PDF" />
+  </a>
+  <a href="https://github.com/saideepika07/portfolio">
+    <img src="https://img.shields.io/badge/GitHub_Pages-Active-06b6d4?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages Status" />
+  </a>
+</p>
+
+<div align="center">
+
+> 🚀 **Live Link**: **[https://saideepika07.github.io/portfolio/](https://saideepika07.github.io/portfolio/)**  
+> 📄 **ATS Resume**: **[https://saideepika07.github.io/portfolio/resume.html](https://saideepika07.github.io/portfolio/resume.html)**
+
+</div>
 
 ---
 
