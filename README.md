@@ -36,14 +36,21 @@ Information Technology undergraduate at **Malineni Lakshmaiah Women's Engineerin
 
 ## 🛠️ Tech Stack & Skills
 - **Languages**: Python, JavaScript (ES6+), TypeScript
-- **Frontend**: React.js, HTML5, CSS3, Tailwind CSS
+- **Frontend**: React.js, Next.js, HTML5, CSS3, Tailwind CSS
 - **Backend & APIs**: Node.js, Express.js, RESTful Architecture
-- **Databases & Cloud**: MongoDB Atlas, MySQL, AWS, Firebase, ServiceNow
+- **Databases & Cloud**: Supabase (PostgreSQL), MongoDB Atlas, MySQL, AWS, Firebase, ServiceNow
 - **Foundations**: DBMS, Operating Systems, Computer Networks, System Design
 
 ---
 
-## 🚀 Featured Project
+## 🚀 Featured Projects
+- **CleanCycle: Smart Community Waste Segregation & Collection System** (October 2026)
+  - Built a real-time waste segregation platform (wet, dry, reject) with resident, collector and admin dashboards, using Next.js, TypeScript and Supabase.
+  - Designed a PostgreSQL schema with Row Level Security, triggers and views, so each role sees only its own community's data.
+  - Implemented offline-first collection using an IndexedDB queue and idempotent sync, with no duplicate records in testing.
+  - Built an admin analytics dashboard with a weighted Community Green Score, and deployed on Vercel with a multilingual UI (English, Telugu, Hindi).
+  - [GitHub Repository](https://github.com/saideepika07/cleancycle) &middot; [Live Demo](https://cleancycle.vercel.app)
+
 - **AURA &ndash; Interior & Building Planning**: AI-driven architectural platform generating optimized 1–4 BHK floor plans, interactive 2D/3D visualizations, Google Gemini Vision AI room analysis, and contractor marketplace.
   - [GitHub Repository](https://github.com/saideepika07/AuraInteriorAndBuildingPlanning)
 
