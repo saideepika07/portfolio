@@ -868,6 +868,15 @@
       line-height: 1.35;
     }
 
+    .latex-project-list {
+      margin-bottom: 2px;
+    }
+
+    .latex-project-list li {
+      margin-bottom: 0.5px;
+      line-height: 1.20;
+    }
+
     .latex-sublist {
       list-style-type: circle;
       margin-left: 18px;
@@ -1206,53 +1215,47 @@
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
               View on GitHub
             </a>
-            <a href="https://cleancycle.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
-              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-              Live Demo
-            </a>
           </div>
         </div>
 
         <div class="project-highlight">
           <div class="project-top">
             <div>
-              <h3 class="project-title">AURA &ndash; Interior & Building Planning</h3>
-              <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 0.2rem;">AI-powered architectural spatial planning, 2D/3D visualization & workforce marketplace</p>
+              <h3 class="project-title">STHAVYA: AI Home Planning Platform</h3>
+              <p style="font-size: 0.88rem; color: var(--text-muted); margin-top: 0.2rem;">Multi-floor AI blueprint generation platform with real-time updates and export</p>
             </div>
-            <div class="project-date">September 2026</div>
           </div>
 
           <div class="project-tech-tags">
-            <span class="tech-pill">React.js</span>
+            <span class="tech-pill">React</span>
             <span class="tech-pill">TypeScript</span>
-            <span class="tech-pill">Tailwind CSS</span>
             <span class="tech-pill">Node.js</span>
-            <span class="tech-pill">Express.js</span>
-            <span class="tech-pill">MongoDB Atlas</span>
-            <span class="tech-pill">Firebase Auth</span>
-            <span class="tech-pill">Google Gemini Vision AI</span>
+            <span class="tech-pill">Express</span>
+            <span class="tech-pill">MongoDB</span>
+            <span class="tech-pill">Socket.io</span>
+            <span class="tech-pill">JWT</span>
+            <span class="tech-pill">Gemini API</span>
+            <span class="tech-pill">Vercel</span>
+            <span class="tech-pill">Render</span>
           </div>
 
           <ul class="project-bullets">
             <li class="project-bullet">
-              <strong>Floor Plan Generation Engine:</strong> Developed an AI-powered house planning website that generates optimized 1&ndash;4 BHK floor plans based on plot dimensions and user requirements.
+              Built a web app where you enter your plot size, BHK and budget, and get a separate blueprint for every floor, from ground up to G+4 with an optional penthouse.
             </li>
             <li class="project-bullet">
-              <strong>2D CAD & 3D Interactive Visualization:</strong> Designed 2D CAD blueprints and interactive 3D house visualization for better space planning and interior understanding.
+              Made the backend with Node, Express and MongoDB, with secure login using JWT and password hashing.
             </li>
             <li class="project-bullet">
-              <strong>Google Gemini Vision AI Integration:</strong> Integrated Google Gemini Vision AI to analyze room images and blueprints, suggesting space optimization and layout improvements.
+              Used Gemini to review the floor plans, and Socket.io to show booking updates live.
             </li>
             <li class="project-bullet">
-              <strong>Verified Workforce Marketplace:</strong> Built a verified workforce marketplace connecting users with architects, constructors, electricians, plumbers, and painters after blueprint generation.
-            </li>
-            <li class="project-bullet">
-              <strong>Full-Stack Architecture & Export Tools:</strong> Implemented cost estimation, consultation booking, and PDF/PNG/SVG export features using a MERN + Firebase full-stack architecture.
+              Added PDF download for the blueprints and deployed everything online (Vercel, Render, MongoDB Atlas).
             </li>
           </ul>
 
           <div class="project-links">
-            <a href="https://github.com/saideepika07/AuraInteriorAndBuildingPlanning" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <a href="https://github.com/saideepika07/Sthavya" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
               View on GitHub
             </a>
@@ -1479,34 +1482,29 @@
         <div class="latex-entry">
           <em>Tech Stack: Next.js, TypeScript, Tailwind CSS, Supabase (PostgreSQL, Auth, Row Level Security, Realtime), IndexedDB, Vercel</em>
         </div>
-        <div style="font-size: 10pt; margin-top: 1px; margin-bottom: 1px;">
+        <div style="font-size: 10pt; margin-top: 0; margin-bottom: 1px;">
           <a href="https://github.com/saideepika07/cleancycle" target="_blank" rel="noopener noreferrer">GitHub: saideepika07/cleancycle</a>
         </div>
-        <div style="font-size: 10pt; margin-top: 1px; margin-bottom: 3px;">
-          <a href="https://cleancycle.vercel.app" target="_blank" rel="noopener noreferrer">Live Demo: cleancycle.vercel.app</a>
-        </div>
-        <ul class="latex-list">
+        <ul class="latex-list latex-project-list">
           <li>Built a real-time waste segregation platform (wet, dry, reject) with resident, collector and admin dashboards, using Next.js, TypeScript and Supabase.</li>
           <li>Designed a PostgreSQL schema with Row Level Security, triggers and views, so each role sees only its own community's data.</li>
           <li>Implemented offline-first collection using an IndexedDB queue and idempotent sync, with no duplicate records in testing.</li>
           <li>Built an admin analytics dashboard with a weighted Community Green Score, and deployed on Vercel with a multilingual UI (English, Telugu, Hindi).</li>
         </ul>
-        <div class="latex-entry">
-          <strong>AURA-Interior &amp; Building Planning</strong>
-          <span>September 2026</span>
+        <div class="latex-entry" style="margin-top: 2px;">
+          <strong>STHAVYA: AI Home Planning Platform</strong>
         </div>
         <div class="latex-entry">
-          <em>Tech Stack: React.js, TypeScript, Tailwind CSS, Node.js, Express.js, MongoDB Atlas, Firebase Auth, Gemini API</em>
+          <em>Tech Stack: React, TypeScript, Node.js, Express, MongoDB, Socket.io, JWT, Gemini API, Vercel, Render</em>
         </div>
-        <div style="font-size: 10pt; margin-top: 1px; margin-bottom: 3px;">
-          <a href="https://github.com/saideepika07/AuraInteriorAndBuildingPlanning" target="_blank" rel="noopener noreferrer">GitHub: saideepika07/AuraInteriorAndBuildingPlanning</a>
+        <div style="font-size: 10pt; margin-top: 0; margin-bottom: 1px;">
+          <a href="https://github.com/saideepika07/Sthavya" target="_blank" rel="noopener noreferrer">GitHub: saideepika07/Sthavya</a>
         </div>
-        <ul class="latex-list">
-          <li>Developed an AI-powered house planning website that generates optimized 1-4 BHK floor plans based on plot dimensions and user requirements.</li>
-          <li>Designed 2D CAD blueprints and interactive 3D house visualization for better space planning and interior understanding.</li>
-          <li>Integrated Google Gemini Vision AI to analyze room images and blueprints, suggesting space optimization and layout improvements.</li>
-          <li>Built a verified workforce marketplace connecting users with architects, constructors, electricians, plumbers, and painters after blueprint generation.</li>
-          <li>Implemented cost estimation, consultation booking, and PDF/PNG/SVG export features using a MERN + Firebase full-stack architecture.</li>
+        <ul class="latex-list latex-project-list">
+          <li>Built a web app where you enter your plot size, BHK and budget, and get a separate blueprint for every floor, from ground up to G+4 with an optional penthouse.</li>
+          <li>Made the backend with Node, Express and MongoDB, with secure login using JWT and password hashing.</li>
+          <li>Used Gemini to review the floor plans, and Socket.io to show booking updates live.</li>
+          <li>Added PDF download for the blueprints and deployed everything online (Vercel, Render, MongoDB Atlas).</li>
         </ul>
 
         <!-- Achievements & Certifications -->

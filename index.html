@@ -649,40 +649,40 @@
       overflow: hidden;
       box-shadow: var(--shadow-lg);
       transition: var(--transition);
-      margin-bottom: 2.5rem;
+      margin-bottom: 2rem;
     }
 
     .project-card-hero:hover {
       border-color: var(--border-glow);
-      box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4), 0 0 35px var(--primary-glow);
+      box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35), 0 0 28px var(--primary-glow);
     }
 
     .project-content-full {
-      padding: 3rem 2.5rem;
+      padding: 1.85rem 2rem;
     }
 
     .project-details-grid {
       display: grid;
-      grid-template-columns: 1.3fr 0.85fr;
-      gap: 2.5rem;
+      grid-template-columns: 1.35fr 0.85fr;
+      gap: 1.75rem;
       align-items: start;
-      margin-top: 1.5rem;
+      margin-top: 1rem;
     }
 
     .project-side-box {
       background: var(--bg-surface-elevated);
       border: 1px solid var(--border-subtle);
       border-radius: var(--radius-md);
-      padding: 1.5rem;
+      padding: 1.15rem 1.25rem;
     }
 
     .mini-feature-badge {
       display: flex;
       align-items: center;
-      gap: 0.65rem;
-      font-size: 0.84rem;
+      gap: 0.6rem;
+      font-size: 0.82rem;
       color: var(--text-muted);
-      padding: 0.5rem 0.8rem;
+      padding: 0.4rem 0.75rem;
       background: var(--bg-surface);
       border-radius: var(--radius-sm);
       border: 1px solid var(--border-subtle);
@@ -693,7 +693,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
       flex-wrap: wrap;
       gap: 0.75rem;
     }
@@ -702,9 +702,9 @@
       background: rgba(6, 182, 212, 0.12);
       color: var(--primary);
       border: 1px solid rgba(6, 182, 212, 0.3);
-      padding: 0.3rem 0.8rem;
+      padding: 0.25rem 0.75rem;
       border-radius: var(--radius-full);
-      font-size: 0.76rem;
+      font-size: 0.74rem;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.05em;
@@ -717,35 +717,35 @@
     }
 
     .project-hero-title {
-      font-size: 2rem;
+      font-size: 1.45rem;
       font-weight: 800;
       letter-spacing: -0.02em;
-      margin-bottom: 0.75rem;
-      line-height: 1.2;
+      margin-bottom: 0.5rem;
+      line-height: 1.25;
     }
 
     .project-tagline {
-      font-size: 1rem;
+      font-size: 0.92rem;
       color: var(--text-muted);
-      margin-bottom: 1.5rem;
-      line-height: 1.6;
+      margin-bottom: 1rem;
+      line-height: 1.55;
     }
 
     .project-highlights-list {
       list-style: none;
       display: flex;
       flex-direction: column;
-      gap: 0.85rem;
-      margin-bottom: 2rem;
+      gap: 0.7rem;
+      margin-bottom: 1.25rem;
     }
 
     .project-highlight-item {
       display: flex;
       align-items: flex-start;
-      gap: 0.75rem;
-      font-size: 0.92rem;
+      gap: 0.7rem;
+      font-size: 0.9rem;
       color: var(--text-muted);
-      line-height: 1.55;
+      line-height: 1.5;
     }
 
     .highlight-icon {
@@ -761,14 +761,14 @@
     .tech-stack-row {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem;
-      margin-bottom: 2rem;
+      gap: 0.45rem;
+      margin-bottom: 1.25rem;
     }
 
     .tech-tag {
       font-family: 'JetBrains Mono', monospace;
-      font-size: 0.76rem;
-      padding: 0.3rem 0.75rem;
+      font-size: 0.75rem;
+      padding: 0.25rem 0.65rem;
       border-radius: var(--radius-sm);
       background: var(--bg-surface);
       color: var(--text-muted);
@@ -1169,9 +1169,12 @@
       .hero-social-row {
         justify-content: center;
       }
+      .project-content-full {
+        padding: 1.4rem 1.25rem;
+      }
       .project-details-grid {
         grid-template-columns: 1fr;
-        gap: 1.75rem;
+        gap: 1.25rem;
       }
       .stats-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -1188,6 +1191,12 @@
     }
 
     @media (max-width: 600px) {
+      .project-hero-title {
+        font-size: 1.25rem;
+      }
+      .project-content-full {
+        padding: 1.25rem 1rem;
+      }
       .hero-name {
         font-size: 2.5rem;
       }
@@ -1478,7 +1487,7 @@
       </div>
 
       <!-- CleanCycle Project Card -->
-      <article class="project-card-hero" style="margin-bottom: 2.5rem;">
+      <article class="project-card-hero" style="margin-bottom: 2rem;">
         <div class="project-content-full">
           
           <div class="project-meta-row">
@@ -1528,7 +1537,7 @@
                 <h4 style="font-size: 0.85rem; font-weight: 700; color: var(--primary); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.85rem;">
                   Tech Stack
                 </h4>
-                <div class="tech-stack-row" style="margin-bottom: 1.5rem;">
+                <div class="tech-stack-row" style="margin-bottom: 1.25rem;">
                   <span class="tech-tag">Next.js</span>
                   <span class="tech-tag">TypeScript</span>
                   <span class="tech-tag">Tailwind CSS</span>
@@ -1542,7 +1551,7 @@
                 <h4 style="font-size: 0.85rem; font-weight: 700; color: var(--primary); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.85rem;">
                   Core Capabilities
                 </h4>
-                <div style="display: flex; flex-direction: column; gap: 0.55rem; margin-bottom: 1.75rem;">
+                <div style="display: flex; flex-direction: column; gap: 0.55rem; margin-bottom: 1.5rem;">
                   <div class="mini-feature-badge">
                     <span>♻️</span>
                     <span>3-Stream Waste Segregation</span>
@@ -1571,10 +1580,6 @@
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                     <span>View GitHub Repository</span>
                   </a>
-                  <a href="https://cleancycle.vercel.app" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="justify-content: center; width: 100%;">
-                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
-                    <span>Live Demo: cleancycle.vercel.app</span>
-                  </a>
                   <a href="resume.html?view=ats" class="btn btn-outline" style="justify-content: center; width: 100%;">
                     <span>View in ATS Resume</span>
                     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
@@ -1589,20 +1594,17 @@
         </div>
       </article>
 
-      <!-- Main Project Hero Card (Clean Text & Feature Showcase) -->
+      <!-- STHAVYA Project Card -->
       <article class="project-card-hero">
         <div class="project-content-full">
           
           <div class="project-meta-row">
             <div>
-              <span class="project-pill-label">Featured Full-Stack AI Platform</span>
-              <h3 class="project-hero-title" style="margin-top: 0.6rem;">AURA &ndash; Interior &amp; Building Planning</h3>
+              <span class="project-pill-label">AI Home Planning Platform</span>
+              <h3 class="project-hero-title" style="margin-top: 0.6rem;">STHAVYA: AI Home Planning Platform</h3>
               <p class="project-tagline">
-                AI-powered architectural spatial planning web application that generates optimized 1&ndash;4 BHK floor plans, renders interactive 2D/3D visualizations, and connects users to a verified workforce.
+                AI-driven multi-floor blueprint planning platform with automated floor plan generation, real-time booking updates, and cloud deployment.
               </p>
-            </div>
-            <div>
-              <span class="project-date-label">September 2026</span>
             </div>
           </div>
 
@@ -1611,29 +1613,25 @@
             <!-- Left: Highlights & Innovations -->
             <div class="project-bullets-col">
               <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 1.15rem; display: flex; align-items: center; gap: 0.5rem;">
-                <span style="color: var(--primary);">✦</span> Key Architectural Highlights
+                <span style="color: var(--primary);">✦</span> Key Platform Highlights
               </h4>
 
               <ul class="project-highlights-list">
                 <li class="project-highlight-item">
                   <svg class="highlight-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span><strong>AI-Powered 1&ndash;4 BHK Generator:</strong> Dynamically creates optimized room layouts, circulation corridors, and door/window placements based on custom plot dimensions.</span>
+                  <span>Built a web app where you enter your plot size, BHK and budget, and get a separate blueprint for every floor, from ground up to G+4 with an optional penthouse.</span>
                 </li>
                 <li class="project-highlight-item">
                   <svg class="highlight-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span><strong>2D CAD &amp; Interactive 3D Visualization:</strong> Dual-view rendering giving homeowners and architects realistic spatial depth before construction begins.</span>
+                  <span>Made the backend with Node, Express and MongoDB, with secure login using JWT and password hashing.</span>
                 </li>
                 <li class="project-highlight-item">
                   <svg class="highlight-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span><strong>Google Gemini Vision AI Integration:</strong> Multimodal AI model analyzes blueprint and room photos to suggest instant lighting, workflow, and layout improvements.</span>
+                  <span>Used Gemini to review the floor plans, and Socket.io to show booking updates live.</span>
                 </li>
                 <li class="project-highlight-item">
                   <svg class="highlight-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span><strong>Verified Workforce Marketplace:</strong> Directly connects users with licensed architects, constructors, electricians, plumbers, and painters after blueprint generation.</span>
-                </li>
-                <li class="project-highlight-item">
-                  <svg class="highlight-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
-                  <span><strong>Full-Stack MERN + Firebase:</strong> Real-time consultation booking, cost estimations, and multi-format blueprint exports (PDF, PNG, SVG).</span>
+                  <span>Added PDF download for the blueprints and deployed everything online (Vercel, Render, MongoDB Atlas).</span>
                 </li>
               </ul>
             </div>
@@ -1644,46 +1642,48 @@
                 <h4 style="font-size: 0.85rem; font-weight: 700; color: var(--primary); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.85rem;">
                   Tech Stack
                 </h4>
-                <div class="tech-stack-row" style="margin-bottom: 1.5rem;">
-                  <span class="tech-tag">React.js</span>
+                <div class="tech-stack-row" style="margin-bottom: 1.25rem;">
+                  <span class="tech-tag">React</span>
                   <span class="tech-tag">TypeScript</span>
-                  <span class="tech-tag">Tailwind CSS</span>
                   <span class="tech-tag">Node.js</span>
-                  <span class="tech-tag">Express.js</span>
-                  <span class="tech-tag">MongoDB Atlas</span>
-                  <span class="tech-tag">Firebase Auth</span>
-                  <span class="tech-tag">Google Gemini API</span>
+                  <span class="tech-tag">Express</span>
+                  <span class="tech-tag">MongoDB</span>
+                  <span class="tech-tag">Socket.io</span>
+                  <span class="tech-tag">JWT</span>
+                  <span class="tech-tag">Gemini API</span>
+                  <span class="tech-tag">Vercel</span>
+                  <span class="tech-tag">Render</span>
                 </div>
 
                 <h4 style="font-size: 0.85rem; font-weight: 700; color: var(--primary); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.85rem;">
                   Core Capabilities
                 </h4>
-                <div style="display: flex; flex-direction: column; gap: 0.55rem; margin-bottom: 1.75rem;">
+                <div style="display: flex; flex-direction: column; gap: 0.55rem; margin-bottom: 1.5rem;">
                   <div class="mini-feature-badge">
                     <span>📐</span>
-                    <span>1&ndash;4 BHK Floor Plan Engine</span>
+                    <span>Multi-Floor Blueprint Generator</span>
                   </div>
                   <div class="mini-feature-badge">
-                    <span>🏠</span>
-                    <span>2D CAD &amp; 3D House Visualizer</span>
+                    <span>🔐</span>
+                    <span>Secure JWT &amp; Password Hashing</span>
                   </div>
                   <div class="mini-feature-badge">
                     <span>🤖</span>
-                    <span>Gemini Vision AI Analysis</span>
+                    <span>Gemini AI Floor Plan Review</span>
                   </div>
                   <div class="mini-feature-badge">
-                    <span>👷</span>
-                    <span>Verified Workforce Marketplace</span>
+                    <span>⚡</span>
+                    <span>Live Booking via Socket.io</span>
                   </div>
                   <div class="mini-feature-badge">
-                    <span>📊</span>
-                    <span>PDF / PNG / SVG Exports</span>
+                    <span>📄</span>
+                    <span>PDF Blueprint Downloads</span>
                   </div>
                 </div>
 
                 <!-- Action Links -->
                 <div style="display: flex; flex-direction: column; gap: 0.75rem;">
-                  <a href="https://github.com/saideepika07/AuraInteriorAndBuildingPlanning" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="justify-content: center; width: 100%;">
+                  <a href="https://github.com/saideepika07/Sthavya" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="justify-content: center; width: 100%;">
                     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
                     <span>View GitHub Repository</span>
                   </a>
