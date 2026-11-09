@@ -51,6 +51,13 @@ Information Technology undergraduate at **Malineni Lakshmaiah Women's Engineerin
   - Built an admin analytics dashboard with a weighted Community Green Score, and deployed on Vercel with a multilingual UI (English, Telugu, Hindi).
   - [GitHub Repository](https://github.com/saideepika07/cleancycle) &middot; [Live Demo](https://cleancycle.vercel.app)
 
+- **Samanvitha: Need-Based Community Network** (November 2026)
+  - Built a donation platform with donor, institution and admin dashboards that matches donations to admin-approved orphanages and old-age homes based on what they actually need.
+  - Designed an explainable matching score using urgency, unfulfilled demand, time sensitivity and map distance, and showed the score breakdown to the donor.
+  - Stopped double allocation with atomic updates and partial reservations, and tested it with 160+ Jest and Supertest tests including concurrent requests.
+  - Added JWT login, role-based access and private document storage on Cloudinary, and deployed it on Vercel, Render and MongoDB Atlas.
+  - [GitHub Repository](https://github.com/saideepika07/samanvitha)
+
 - **AURA &ndash; Interior & Building Planning**: AI-driven architectural platform generating optimized 1–4 BHK floor plans, interactive 2D/3D visualizations, Google Gemini Vision AI room analysis, and contractor marketplace.
   - [GitHub Repository](https://github.com/saideepika07/AuraInteriorAndBuildingPlanning)
 
